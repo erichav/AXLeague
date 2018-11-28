@@ -1,0 +1,110 @@
+<div class="body-wrapper">
+    <!-- partial:../../partials/_sidebar.html -->
+    <aside class="mdc-persistent-drawer mdc-persistent-drawer--open">
+      <nav class="mdc-persistent-drawer__drawer">
+        <div class="mdc-persistent-drawer__toolbar-spacer">
+         
+						AX League
+				
+        </div>
+        <div class="mdc-list-group">
+          <nav class="mdc-list mdc-drawer-menu">
+            <div class="mdc-list-item mdc-drawer-item">
+              <a class="mdc-drawer-link" href="index.html">
+                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">dashboard</i>
+                Tabla
+              </a>
+            </div>
+            <div class="mdc-list-item mdc-drawer-item">
+              <a class="mdc-drawer-link" href="team.html">
+                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">group</i>
+                Agregar equipo
+              </a>
+            </div>
+            <div class="mdc-list-item mdc-drawer-item">
+              <a class="mdc-drawer-link" href="league.html">
+                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">apps</i>
+               Agregar liga
+              </a>
+            </div>
+            <div class="mdc-list-item mdc-drawer-item">
+              <a class="mdc-drawer-link" href="result.html">
+                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">poll</i>
+                Resultados
+              </a>
+            </div>
+               
+          </nav>
+        </div>
+      </nav>
+    </aside>
+    <!-- partial -->
+    <!-- partial:../../partials/_navbar.html -->
+    <header class="mdc-toolbar mdc-elevation--z4 mdc-toolbar--fixed">
+      <div class="mdc-toolbar__row">
+        
+        
+      </div>
+    </header>
+    <!-- partial -->
+    <div class="page-wrapper mdc-toolbar-fixed-adjust">
+      <main class="content-wrapper">
+           <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
+              <div class="mdc-card">
+                <section class="mdc-card__primary">
+                  <h1 class="mdc-card__title mdc-card__title--large">Agregar equipo</h1>
+                </section>
+                <section class="mdc-card__supporting-text">
+                    <form>
+                  <div class="mdc-layout-grid__inner">
+                      
+                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop">
+                      <div class="template-demo">
+                        <div id="demo-tf-box-wrapper">
+                          <div id="tf-box-example" class="mdc-text-field mdc-text-field--box w-100">
+                            <input required pattern=".{4,}" type="text" id="tf-box" class="mdc-text-field__input" aria-controls="name-validation-message">
+                            <label for="tf-box" class="mdc-text-field__label">Nombre del equipo</label>
+                            <div class="mdc-text-field__bottom-line"></div>
+                          </div>
+                          <p class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg" id="name-validation-msg">
+                            Mínimo 4 caracteres.
+                          </p>
+                        </div>
+                      </div>
+                    
+                    </div>
+<div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop">
+                      <div class="template-demo">
+                        <div id="demo-tf-box-wrapper">
+                          <div id="tf-box-example" class="mdc-text-field mdc-text-field--box w-100">
+                              <select id="tf-box" class="mdc-text-field__input" aria-controls="name-validation-message">
+                                  <option disabled selected>Liga</option>
+                                  <option>1</option>
+                                   <option>2</option>
+                              </select>
+                            
+                            <div class="mdc-text-field__bottom-line"></div>
+                          </div>
+                          <p class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg" id="name-validation-msg">
+                            Mínimo 4 caracteres.
+                          </p>
+                        </div>
+                      </div>
+                    
+                    </div>
+                      
+                          
+                      
+                    
+                  </div>
+                        <button class="mdc-button" type="submit" data-mdc-auto-init="MDCRipple">
+                      Agregar
+                    </button>
+                        </form>
+                </section>
+              </div>
+            </div>
+      </main>
+     
+    </div>
+  </div>
